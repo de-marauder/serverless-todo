@@ -65,7 +65,7 @@ export class TodosAccess {
             todoId: todoId,
             createdAt: new Date().toISOString(),
             done: false,
-            attachmentUrl: `https://serverless-c4-todo-images-bbfe-dev.s3.amazonaws.com/${todoId}`
+            attachmentUrl: `https://serverless-c4-todo-images-abfe-dev.s3.amazonaws.com/${todoId}`
         }
 
         let latencyValue = new Date().getTime()
